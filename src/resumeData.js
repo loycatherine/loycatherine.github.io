@@ -1,5 +1,5 @@
 let resumeData = {
-    "imagebaseurl":"https://resume.github.io/",
+    "imagebaseurl":"https://loycatherine.github.io/",
     "name": "Catherine Loy",
     "role": "Computer Science student at NUS",
     "linkedinId":"a910031a1",
@@ -142,22 +142,26 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Detecting Cyberbullying in Singapore Context",
-        "description":"Created a Machine Learning project with 5 others that detects cyber bullying comments using Python and Natural Language Processing models. It was designed for social media sites and websites to prevent the widespread trend of cyberbullying.",
+        "description":"Machine Learning Project",
+        "information":"Created a Machine Learning project with 5 others that detects cyber bullying comments using Python and Natural Language Processing models. It was designed for social media sites and websites to prevent the widespread trend of cyberbullying.",
         "imgurl":"images/portfolio/machinelearning.png"
       },
       {
         "name":"project2",
         "description":"mobileapp",
+        "information": "blah",
         "imgurl":"images/portfolio/project.jpg"
       },
       {
         "name":"project3",
         "description":"mobileapp",
+        "information": "blah",
         "imgurl":"images/portfolio/project2.png"
       },
       {
         "name":"project4",
         "description":"mobileapp",
+        "information": "blah",
         "imgurl":"images/portfolio/phone.jpg"
       }
     ],

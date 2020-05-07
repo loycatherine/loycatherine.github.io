@@ -620,6 +620,14 @@ input[type="checkbox"] { display: inline; }
    min-height: 1px;
    float: left;
 }
+
+.modal-column {
+   position: relative;
+   padding: 0 20px;
+   min-height: 1px;
+   float: left;
+}
+
 .column.centered, .columns.centered  {
     float: none;
     margin: 0 auto;
