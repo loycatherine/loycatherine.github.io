@@ -27,9 +27,8 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
 header {
-   position: relative;
+   /* position: relative;
    height: 800px;
    min-height: 500px;
    width: 100%;
@@ -37,7 +36,32 @@ header {
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
+   overflow: hidden; */
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   padding:0;
+   margin:0;
+   left: 0px;
+   top: 0px;
    overflow: hidden;
+   object-fit: fill;
+}
+
+header video {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: 100%;
+   height: 100vh;
+   z-index: -100;
+   object-fit: fill;
+   -ms-transform: translateX(-50%) translateY(-50%);
+   -moz-transform: translateX(-50%) translateY(-50%);
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
 }
 
 /* vertically center banner section */
@@ -569,7 +593,13 @@ ul#nav li.current a { color:#fd5e53; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+.center {
+   display: flex;
+   align-items: center;
+   justify-content: center
+}
+
+#portfolio-wrapper .columns { margin-bottom: 50x; }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;

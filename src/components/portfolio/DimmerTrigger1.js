@@ -27,7 +27,7 @@ export default class DimmerTrigger1 extends Component {
           <Modal.Content image>
             <Image
               wrapped
-              src='/images/portfolio/machinelearning.png'
+              src='/images/portfolio/modals/machinelearning.png'
               size="massive"
             />
             <Modal.Description>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/header/header';
+import Header1 from './components/header/header1';
 import About from './components/about/about';
 import Resume from './components/resume/resume';
 import Portfolio from './components/portfolio/portfolio';

@@ -7,10 +7,10 @@ export default class Portfolio extends Component {
     return (
       <section id="portfolio">
         <div className="row">
-          <div className="twelve columns collapsed">
+          <div>
             <h1>Check Out Some of My Works.</h1>
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              <DimmerTrigger1/>
+            <div className="center">
+              <DimmerTrigger1 className="ml"/>
               <DimmerTrigger2/>
               <DimmerTrigger3/>
             </div>

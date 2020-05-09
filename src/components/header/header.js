@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -6,6 +7,9 @@ export default class Header extends Component {
       <React.Fragment>
       {/*generated code*/}
       <header id="home">
+          <video id="video" autoPlay muted loop playsInline>
+              <source src="/images/Night Sky_Trim.mp4" type="video/mp4"/>
+          </video>
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
