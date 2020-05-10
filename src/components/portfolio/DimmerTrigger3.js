@@ -24,11 +24,11 @@ export default class DimmerTrigger2 extends Component {
         </Button>
         <Modal dimmer={dimmer} open={open} onClose={this.close}>
           <Modal.Header>Web Development Project</Modal.Header>
-          <Modal.Content image>
+          <Modal.Content image scrolling>
             <Image
               wrapped
               src='/images/portfolio/stratly.jpg'
-              size="massive"
+              size="big"
             />
             <Modal.Description>
                 <Header>Stratly</Header>

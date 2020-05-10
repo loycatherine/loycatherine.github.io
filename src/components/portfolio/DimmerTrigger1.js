@@ -24,7 +24,7 @@ export default class DimmerTrigger1 extends Component {
         </Button>
         <Modal dimmer={dimmer} open={open} onClose={this.close}>
           <Modal.Header>Machine Learning Project</Modal.Header>
-          <Modal.Content image>
+          <Modal.Content image scrolling>
             <Image
               wrapped
               src='/images/portfolio/modals/machinelearning.png'
