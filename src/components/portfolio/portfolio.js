@@ -1,6 +1,7 @@
 import DimmerTrigger1 from './DimmerTrigger1.js';
 import DimmerTrigger2 from './DimmerTrigger2.js';
 import DimmerTrigger3 from './DimmerTrigger3.js';
+import RevealExampleHidden from './reveal.js';
 
 import React, { Component } from 'react';
 export default class Portfolio extends Component {

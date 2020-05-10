@@ -64,7 +64,7 @@ export default class DimmerTrigger2 extends Component {
       <Dimmer.Dimmable
         as={Image}
         dimmed={active}
-        animation="fade"
+        animated = "small fade"
         dimmer={{ active, content }}
         onMouseEnter={this.handleShow}
         onMouseLeave={this.handleHide}
