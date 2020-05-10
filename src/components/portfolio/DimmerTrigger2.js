@@ -7,6 +7,9 @@ export default class DimmerTrigger2 extends Component {
 
   handleShow = () => this.setState({ active: true })
   handleHide = () => this.setState({ active: false })
+  goToGithub = () => {
+    window.location.href="https://github.com/loycatherine/main";
+  }
 
   show = (dimmer) => () => this.setState({ dimmer, open: true })
   close = () => this.setState({ open: false, active: false })
@@ -41,17 +44,7 @@ export default class DimmerTrigger2 extends Component {
             </Modal.Description>
           </Modal.Content>
           <Modal.Actions>
-            <Button basic color='black' icon='code' size='big' onClick={this.close}/>
-            <Button color='black' onClick={this.close}>
-                close
-            </Button>
-            <Button
-              positive
-              icon='checkmark'
-              labelPosition='right'
-              content="Yep, that's me"
-              onClick={this.close}
-            />
+            <Button basic color='black' icon='code' size='big' onClick={this.goToGithub}/>
           </Modal.Actions>
         </Modal>
       </div>
@@ -59,12 +52,14 @@ export default class DimmerTrigger2 extends Component {
 
     return (
       <Dimmer.Dimmable
+        className = "ease"
         as={Image}
         dimmed={active}
         dimmer={{ active, content }}
         onMouseEnter={this.handleShow}
         onMouseLeave={this.handleHide}
         size='medium'
+        animation = "ease"
         src="/images/portfolio/Ui.png"
       /> 
     )

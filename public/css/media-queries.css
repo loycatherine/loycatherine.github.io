@@ -112,7 +112,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #fd5e53;
+		background-color: #bea9de;
 		position: relative;
       border: none;
       float: right;
@@ -233,7 +233,7 @@
    }
    #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
-   #resume h3, #resume .info { text-align: center; }
+   #resume h3, #resume .info, #resume .achievements { text-align: center; }
       
    .bars { width: 100%; }
 
@@ -258,6 +258,16 @@
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
+
+   #portfolio .center {
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      left:50%;
+      transform: translateX(17.5%);
+      -webkit-transform: translateX(17.5%);
+   }
 
    /* Testimonials Section
    ----------------------------------------------------------------------- */

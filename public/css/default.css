@@ -349,7 +349,7 @@ li p { }
    color: #313131;
 }
 .stats-tabs li a:hover {
-   color:#11ABB0;
+   color:#bea9de;
 }
 .stats-tabs li a b {
 	display: block;
@@ -361,7 +361,7 @@ li p { }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
+dt { margin: 0; color:#bea9de; }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -436,7 +436,7 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .current,
 .pagination .current:hover {
-   background-color: #11ABB0;
+   background-color: #bea9de;
    color: #fff;
 }
 .pagination .inactive,
