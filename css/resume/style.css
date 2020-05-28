@@ -24,7 +24,7 @@ main, footer {
 }
 
 #intro {
-    background: url("/img/giphy.gif")no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/loycatherine/loycatherine.github.io/master/img/giphy.gif")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
