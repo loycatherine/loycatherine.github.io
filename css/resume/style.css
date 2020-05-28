@@ -11,6 +11,18 @@ main, footer {
   overflow-x: hidden;
 }
 
+#hero-title {
+  /* font: Demi 40px/69px Futura PT; */
+  font-size: 4.75vmax;
+  opacity: 1;
+}
+
+#hero-description {
+  /* font: Demi 40px/69px Futura PT; */
+  font-size: 1.75vmax;
+  opacity: 1;
+}
+
 #intro {
     background: url("/img/giphy.gif")no-repeat center center fixed;
     -webkit-background-size: cover;
