@@ -26,6 +26,7 @@ main, footer {
 .gif-image {
   height: 100vh;
   width: 100%;
+  object-fit: cover;
 }
 
 /* #intro {
