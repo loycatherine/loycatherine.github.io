@@ -28,6 +28,13 @@ main, footer {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .gif-image {
+    margin:0 -38.885%;
+    width:177.777%;
+  }
+}
+
 /* #intro {
     background: url("https://raw.githubusercontent.com/loycatherine/loycatherine.github.io/master/img/giphy.gif")no-repeat center center fixed;
     -webkit-background-size: cover;
