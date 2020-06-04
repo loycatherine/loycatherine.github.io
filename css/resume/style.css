@@ -41,7 +41,7 @@ main, footer {
     padding-top: 100px;
 }
 
-.top-nav-collapse {
+/* .top-nav-collapse {
     background: rgb(164,154,194);
 background: linear-gradient(90deg, rgba(164,154,194,1) 0%, rgba(168,95,130,1) 25%, 
 rgba(197,118,125,1) 50%, rgba(249,169,137,1) 75%, rgba(250,147,100,1) 100%);
@@ -59,7 +59,7 @@ rgba(197,118,125,1) 50%, rgba(249,169,137,1) 75%, rgba(250,147,100,1) 100%);
         background: linear-gradient(90deg, rgba(164,154,194,1) 0%, rgba(168,95,130,1) 25%, 
         rgba(197,118,125,1) 50%, rgba(249,169,137,1) 75%, rgba(250,147,100,1) 100%);
     }
-  }
+  } */
 /* 
   background: rgb(245,171,153);
 background: linear-gradient(90deg, rgba(245,171,153,1) 0%, rgba(254,180,123,1) 25%, 
@@ -111,13 +111,12 @@ rgba(197,118,125,1) 50%, rgba(249,169,137,1) 75%, rgba(250,147,100,1) 100%); */
   width: 100%;
 }
 
-/* @supports (-webkit-touch-callout: none) {
-  #intro {
-    background: url("/img/giphy.png")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-} */
-
+.navbar.solid {
+  background: rgb(164,154,194);
+  background: linear-gradient(90deg, rgba(164,154,194,1) 0%, rgba(168,95,130,1) 25%, 
+  rgba(197,118,125,1) 50%, rgba(249,169,137,1) 75%, rgba(250,147,100,1) 100%);;
+  /* transition: background 1s ease 0s; */
+  transition: all 1s ease 0s !important;
+  -webkit-transition: all 1s ease 0s !important;
+  box-shadow: 0 0 4px grey;
+}
